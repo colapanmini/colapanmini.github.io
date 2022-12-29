@@ -6,7 +6,7 @@ const obatMulia = [
     composition: "Acetylcysteine 200 mg" ,
     categories: "Cough & Cold Preparations",
     packaging: "DUS, 10 AMPLOP @ 1 STRIP @ 10 KAPSUL",
-    type: ""
+    type: "Capsule"
  } ,
 {
     id: 2,
@@ -15,7 +15,7 @@ const obatMulia = [
     composition: "Allopurinol 100 mg" ,
     categories: "Hyperuricemia & Gout Preparations",
     packaging: "DUS, 10 STRIP @ 10 TABLET",
-    type: ""
+    type: "Tablet"
 } ,
 {
     id: 3,
@@ -24,7 +24,7 @@ const obatMulia = [
     composition: "Allopurinol 300 mg",
     categories: "Hyperuricemia & Gout Preparations",
     packaging: "DUS, 10 STRIP @ 10 TABLET",
-    type: ""
+    type: "Tablet"
 } ,
 {
     id: 4,
@@ -33,142 +33,142 @@ const obatMulia = [
     composition: "Ambroxol HCl 15 mg/ 5 ml",
     categories: "Cough & Cold Preparations",
     packaging: "DUS, BOTOL @ 60 ML",
-    type: ""
+    type: "Syrup"
 } ,
 {
     id: 5,
     name: "AMBROXOL TAB" ,
     image: "https://drive.google.com/file/d/12boq9SY6TileodObHTGB53oN54JetcUg/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Ambroxol HCl 30 mg",
+    categories: "Cough & Cold Preparations",
+    packaging: "DUS, 10 STRIP @ 10 TABLET",
+    type: "Tablet"
 } ,
 {
     id: 6,
     name: "AMLODIPINE 5 30'S" ,
     image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Amlodipine besylate equivalent to Amlodipine base 5 mg",
+    categories: "Antihypertensives",
+    packaging: "DUS, 3 STRIP @ 10 TABLET",
+    type: "Tablet"
 } ,
 {
     id: 7,
     name: "AMLODIPINE 5 100'S" ,
     image: "https://drive.google.com/file/d/1Qn96BvmFGOMEDusl1cx6Mw5Bju4nSt5Z/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Amlodipine besylate equivalent to Amlodipine base 5 mg",
+    categories: "Antihypertensives",
+    packaging: "DUS, 10 STRIP @ 10 TABLET",
+    type: "Tablet"
 } , 
 {
     id: 8,
     name: "AMLODIPINE 10 30'S" ,
     image: "https://drive.google.com/file/d/1w986h_T8FaP0Gq6N9la08So4HA7nvRPT/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Amlodipine besylate equivalent to Amlodipine base 10 mg",
+    categories: "Antihypertensives",
+    packaging: "DUS, 3 STRIP @ 10 TABLET",
+    type: "Tablet"
 } , 
 {
     id: 9,
     name: "AMLODIPINE 10 100'S" ,
     image: "https://drive.google.com/file/d/1W3kBlFJVXlOKwcvjcjHLLbJvS7DsbFpG/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Amlodipine besylate equivalent to Amlodipine base 10 mg",
+    categories: "Antihypertensives",
+    packaging: "DUS, 10 STRIP @ 10 TABLET",
+    type: "Tablet"
 } ,
 {
     id: 10,
-    name: "AMOXICILIN 500" ,
+    name: "AMOXICILLIN 500" ,
     image: "https://drive.google.com/file/d/15C3zeYsWe00DIZfiWLM5m_rGOmM8AWtr/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Amoxicillin Trihydrate 500 mg",
+    categories: "Antibiotics",
+    packaging: "DUS, 10 STRIP @ 10 KAPLET",
+    type: "Tablet"
 } ,
 {
     id: 11,
     name: "ATORVASTATIN 10 30'S" ,
     image: "https://drive.google.com/file/d/1NxN534GjrRpOt1CME8eX-NIYfRZx7BAg/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Atorvastatin Calcium Trihydrate ~ Atorvastatin 10 mg",
+    categories: "Anticholesterol & Dyslipidaemic Agents",
+    packaging: "DUS, 3 STRIP @ 10 KAPLET SALUT SELAPUT",
+    type: "Tablet"
 } , 
 {
     id: 12,
     name: "ATORVASTATIN 20 30'S" ,
     image: "https://drive.google.com/file/d/1bpzaywcTpJx7rMBhtk9Igs5eG3Zou-vs/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Atorvastatin Calcium Trihydrate 21,69 mg ~ Atorvastatin 20 mg",
+    categories: "Anticholesterol & Dyslipidaemic Agents",
+    packaging: "DUS, 3 STRIP @ 10 KAPLET SALUT SELAPUT",
+    type: "Tablet"
 } , 
 {
     id: 13,
     name: "ATORVASTATIN 20 50'S" ,
     image: "https://drive.google.com/file/d/14DHin5owlMaw9PCLEUKKIntycUaJRHvk/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Atorvastatin Calcium Trihydrate 21,69 mg ~ Atorvastatin 20 mg",
+    categories: "Anticholesterol & Dyslipidaemic Agents",
+    packaging: "DUS, 5 STRIP @ 10 KAPLET SALUT SELAPUT",
+    type: "Tablet"
 } ,
 {
     id: 14,
     name: "ATORVASTATIN 40 30'S" ,
     image: "https://drive.google.com/file/d/1hKSQ2i06XQlr62uMO8zPr4jVZM5uBfjA/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Atorvastatin Calcium Trihydrate 43,38 mg ~ Atorvastatin 40 mg",
+    categories: "Anticholesterol & Dyslipidaemic Agents",
+    packaging: "DUS, 5 STRIP @ 6 KAPLET SALUT SELAPUT",
+    type: "Tablet"
 } ,
 {
     id: 15,
     name: "BETAGEN" ,
     image: "https://drive.google.com/file/d/1GWiNoHH4DmiEetoZnFvNc3Z4vTLuGnYw/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Betamethasone dipropionate 0.05%",
+    categories: "Topical Corticosteroids",
+    packaging: "DUS, 1 TUBE @ 5 GRAM",
+    type: "Cream"
 } , 
 {
     id: 16,
     name: "BETAHISTIN TAB" ,
     image: "https://drive.google.com/file/d/15Hj-gyini_HvROgGBMpfB7FErd7cjx14/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Betahistine Mesilate 6mg",
+    categories: "Antivertigo",
+    packaging: "DUS, 5 STRIP @ 10 TABLET",
+    type: "Tablet"
 } , 
 {
     id: 17,
     name: "BETAMETHASON CREAM" ,
     image: "https://drive.google.com/file/d/1rol6Z8oOrrhboFSOsfKL_JddZ9DMGEca/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "BETAMETHASONE DIPROPIONATE 0,64 mg",
+    categories: "Topical Corticosteroids",
+    packaging: "DUS, 1 TUBE @ 5 GRAM",
+    type: "Cream"
 } ,
 {
     id: 18,
     name: "BISACODYL TAB" ,
     image: "https://drive.google.com/file/d/1Hy1q4yuGHYMlNDin9T1iK_cNSFyXbHHK/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Bisacodyl 5 mg",
+    categories: "Laxatives",
+    packaging: "DUS, 10 AMPLOP @ 1 STRIP @ 10 TABLET SALUT ENTERIK",
+    type: "Tablet"
 } ,
 {
     id: 19,
     name: "BISYOL" ,
     image: "https://drive.google.com/file/d/1h-VBjiyDfneh7ct81knkyjPlMyRoU0Qd/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    composition: "Campor 10%, Oleum Eucaplypti 13%, Menthol 20%, Clove oil 1,5%",
+    categories: "Ointment",
+    packaging: "DUS, POT PLASTIK @ 10, 20 & 30 GRAM",
+    type: "Ointment"
 } , 
 {
     id: 20,
