@@ -522,67 +522,67 @@ const obatMulia = [
     type: "Tablet"
 } , 
 {
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    id: 59,
+    name: "GENLIPID 20 STRIP" ,
+    image: "https://drive.google.com/file/d/1IMzyKoPM0Svuv3M-wyyGwHT6cC0uVhmo/view?usp=share_link" ,
+    composition: "Atorvastatin Calcium Trihydrate 21,69 mg ~ Atorvastatin 20 mg",
+    categories: "Anticholesterol & Dyslipidaemic Agents",
+    packaging: "DUS, 5 STRIP @ 6 KAPLET SALUT SELAPUT",
+    type: "Caplet"
 } , 
 {
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    id: 60,
+    name: "GENLIPID 40 STRIP" ,
+    image: "https://drive.google.com/file/d/1aO1XNnWUzSUMZ37j2R96zzBMboOrnyEw/view?usp=share_link" ,
+    composition: "Atorvastatin Calcium Trihydrate 43,38 mg ~ Atorvastatin 40 mg",
+    categories: "Anticholesterol & Dyslipidaemic Agents",
+    packaging: "DUS, 3 STRIP @ 10 KAPLET SALUT SELAPUT",
+    type: "Caplet"
 } , 
 {
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    id: 61,
+    name: "GENMYCIN CREAM" ,
+    image: "https://drive.google.com/file/d/1mCxzaSAT8LZohM86qBQtKmpqWyZv4sZN/view?usp=share_link" ,
+    composition: "Gentamicin sulfate 1.66 mg",
+    categories: "Topical Antibiotics",
+    packaging: "DUS, 1 TUBE @ 5 GRAM",
+    type: "Ointment"
 } , 
 {
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    id: 62,
+    name: "GENPRIDON SYR" ,
+    image: "https://drive.google.com/file/d/1bER1YGPSbT6Engk5jYIHkLCW1kzj7I3i/view?usp=share_link" ,
+    composition: "Domperidone 5 mg/5 ml",
+    categories: "Antiemetics",
+    packaging: "DUS, 1 BOTOL @ 60 ML",
+    type: "Syrup"
 } , 
 {
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    id: 63,
+    name: "GENPRIDON TAB" ,
+    image: "https://drive.google.com/file/d/1b_YX-5bw6LCzb9s8RGb6mWVP23mMz69C/view?usp=share_link" ,
+    composition: "Domperidone 10 mg",
+    categories: "Antiemetics",
+    packaging: "DUS, 10 STRIP @ 10 TABLET",
+    type: "Tablet"
 } , 
 {
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    id: 64,
+    name: "GENROXI" ,
+    image: "https://drive.google.com/file/d/1IJAIXafGvJetutXzowOVT5X9vlUT8BJQ/view?usp=share_link" ,
+    composition: "Piroxicam 20 mg",
+    categories: "NSAIDs",
+    packaging: "DUS, 10 BLISTER @ 10 KAPSUL",
+    type: "Capsule"
 } , 
 {
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
+    id: 65,
+    name: "GENTAMICIN CREAM" ,
+    image: "https://drive.google.com/file/d/1M64B9G8BOMObbfrXCvvSwU5rGdJS9tj2/view?usp=share_link" ,
+    composition: "Gentamicin sulfate 1.66 mg",
+    categories: "Topical Antibiotics",
+    packaging: "DUS, 1 TUBE @ 5 GRAM",
+    type: "Ointment"
 } , 
 {
     id: 5,
