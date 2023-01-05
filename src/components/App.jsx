@@ -13,7 +13,7 @@ function App() {
     <div>
       <Header />
       {productButtonState === "mulia" ? <MuliaProducts obatMulia={obatMulia}/> : <Carousel />}
-      <div class="container marketing custom-container-featurette">
+      <div className="container marketing custom-container-featurette">
         <h1>Our Products</h1>
         <p>PT. Mekada Abadi distributes Over-The-Counter (OTC) drugs from PT. Mulia Farma Suci and PT. Mutiara Mukti Farma.</p>
       <Featurettes setButtonState={setButtonState}/>

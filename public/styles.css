@@ -7,6 +7,12 @@
   font-size: 2rem;
 }
 
+.mekada-logo {
+  width: 4rem;
+  border-radius: 10%;
+  margin: 0 30px;
+}
+
 /* Featurette Section */
 .custom-container-featurette {
   text-align: center;
@@ -44,6 +50,28 @@
 .statbox {
   height: 452px;
   text-align: center;
+}
+
+/* Product Component */
+.medicine-img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.img-overlay {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.magnifying-glass {
+  width: 30px;
+  position: absolute;
+  cursor: pointer;
+  top: 4%;
+  left: 4%;
 }
 
 /* Build PKG */
