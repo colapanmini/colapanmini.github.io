@@ -583,58 +583,61 @@ const obatMulia = [
     categories: "Topical Antibiotics",
     packaging: "DUS, 1 TUBE @ 5 GRAM",
     type: "Ointment"
-} , 
-{
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
-} , 
-{
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
-} , 
-{
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
-} , 
-{
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
-} , 
-{
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
-} , 
-{
-    id: 5,
-    name: "AMLODIPINE 5 30'S" ,
-    image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
-    composition: "",
-    categories: "",
-    packaging: "",
-    type: ""
-} ]
+} //, 
+// {
+//     id: 5,
+//     name: "AMLODIPINE 5 30'S" ,
+//     image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
+//     composition: "",
+//     categories: "",
+//     packaging: "",
+//     type: ""
+// } , 
+// {
+//     id: 5,
+//     name: "AMLODIPINE 5 30'S" ,
+//     image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
+//     composition: "",
+//     categories: "",
+//     packaging: "",
+//     type: ""
+// } , 
+// {
+//     id: 5,
+//     name: "AMLODIPINE 5 30'S" ,
+//     image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
+//     composition: "",
+//     categories: "",
+//     packaging: "",
+//     type: ""
+// } , 
+// {
+//     id: 5,
+//     name: "AMLODIPINE 5 30'S" ,
+//     image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
+//     composition: "",
+//     categories: "",
+//     packaging: "",
+//     type: ""
+// } , 
+// {
+//     id: 5,
+//     name: "AMLODIPINE 5 30'S" ,
+//     image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
+//     composition: "",
+//     categories: "",
+//     packaging: "",
+//     type: ""
+// } , 
+// {
+//     id: 5,
+//     name: "AMLODIPINE 5 30'S" ,
+//     image: "https://drive.google.com/file/d/1QVPCDvaNIVbNwDcE_iTZseeVfC9wVhiP/view?usp=share_link" ,
+//     composition: "",
+//     categories: "",
+//     packaging: "",
+//     type: ""
+// } 
+]
+
+export default obatMulia;

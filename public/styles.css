@@ -1,3 +1,4 @@
+/* Header SSection */
 .navbar-customization {
   padding: 12px 0;
 }
@@ -6,6 +7,46 @@
   font-size: 2rem;
 }
 
+/* Featurette Section */
+.custom-container-featurette {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.custom-container-about {
+  width: 60%;
+  text-align: center;
+}
+
+/* Contact Me Section */
+.contact-me-container {
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.contact-me-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.custom-text-area {
+  margin-bottom: 20px;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.status-img {
+  width: 150px;
+}
+
+.statbox {
+  height: 452px;
+  text-align: center;
+}
+
+/* Build PKG */
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;

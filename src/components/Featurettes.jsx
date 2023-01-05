@@ -1,29 +1,33 @@
 import React from "react";
+import omestan from "../images/featurette-img/omestan.jpg";
+import viboost from "../images/featurette-img/viboost.jpg";
 
-function Featurettes() {
+function Featurettes(props) {
+  
+  function handleClickMulia() {
+    props.setButtonState("mulia");
+  }
+
+  function handleClickMutifa() {
+    props.setButtonState("mutifa");
+  }
+  
     return (
 
         <div className="row">
-          <div className="col-lg-4">
-            <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <div className="col-lg-6">
+            <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={viboost} aria-label="Placeholder: 140x140" alt="viboost health-supplement" />
     
             <h2 className="fw-normal">PT. Mulia Farma Suci</h2>
             <p>Browse PT. Mulia Farma Suci's products.</p>
-            <p><a className="btn btn-secondary" href="#">Products &raquo;</a></p>
+            <p><button className="btn btn-secondary" onClick={handleClickMulia}>Products &raquo;</button></p>
           </div>
-          <div className="col-lg-4">
-            <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <div className="col-lg-6">
+          <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={omestan} aria-label="Placeholder: 140x140" alt="omestan anagelsic anagelsik" />
     
             <h2 className="fw-normal">PT. Mutifa</h2>
             <p>Browse PT. Mutiara Mukti Farma's products.</p>
-            <p><a className="btn btn-secondary" href="#">Products &raquo;</a></p>
-          </div>
-          <div className="col-lg-4">
-            <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-    
-            <h2 className="fw-normal">Heading</h2>
-            <p>And lastly this, the third column of representative placeholder content.</p>
-            <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
+            <p><button className="btn btn-secondary" onClick={handleClickMutifa}>Products &raquo;</button></p>
           </div>
         </div>
     )
