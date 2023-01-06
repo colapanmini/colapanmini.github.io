@@ -74,6 +74,10 @@
   left: 4%;
 }
 
+/* Partitioner Component */
+.partitioner-container {
+  margin-top: 150px;
+}
 /* Build PKG */
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -207,4 +211,34 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+/* Sidebar CSS */
+.search-bar {
+  display: inline-block;
+  width: 85%;
+}
+
+.search-button {
+  display: inline-block;
+  position: absolute;
+  right: 7.8%;
+  top: 4%;
+  border: none;
+  background: none;
+}
+
+.search-wrapper {
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* OffCanvas Code */
+
+.offcanvas-toggler {
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }

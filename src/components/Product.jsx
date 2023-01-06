@@ -11,9 +11,9 @@ function Product(props) {
             <div className="img-overlay">
              <img className="medicine-img" src={props.img} alt={props.name} />
              <img className="magnifying-glass" data-bs-toggle="modal" data-bs-target={`#${modalId}`} src={magnifyingGlassIcon} alt="magnifying glass" />
-             <div class="modal fade" id={modalId} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-             <div class="modal-dialog modal-dialog-centered modal-lg">
-                 <div class="modal-content">
+             <div className="modal fade" id={modalId} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div className="modal-dialog modal-dialog-centered modal-lg">
+                 <div className="modal-content">
                  <img src={props.img} alt="Full Sized Image" />
                  </div>
              </div>
