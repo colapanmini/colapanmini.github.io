@@ -12,14 +12,12 @@ function App() {
   return (
     <div>
       <Header />
-      {productButtonState === "mulia" ? null : <Carousel />}
-      {productButtonState === "mulia" ? <Partitioner obatMulia={obatMulia} setButtonState={setButtonState} /> 
-      :
+      {productButtonState === "mulia" ? <Partitioner obatMulia={obatMulia} setButtonState={setButtonState} /> : <Carousel />}
       <div className="container marketing custom-container-featurette">
         <h1>Our Products</h1>
         <p>PT. Mekada Abadi distributes Over-The-Counter (OTC) drugs from PT. Mulia Farma Suci and PT. Mutiara Mukti Farma.</p>
       <Featurettes setButtonState={setButtonState}/>
-      </div>}
+      </div>
       <About />
       <Contact />
     </div>
