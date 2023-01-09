@@ -20,14 +20,14 @@ function Featurettes(props) {
     
             <h2 className="fw-normal">PT. Mulia Farma Suci</h2>
             <p>Browse PT. Mulia Farma Suci's products.</p>
-            <p><button className="btn btn-secondary" onClick={handleClickMulia}>Products &raquo;</button></p>
+            <p><button className="btn btn-dark" onClick={handleClickMulia}>Products &raquo;</button></p>
           </div>
           <div className="col-lg-6">
           <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={omestan} aria-label="Placeholder: 140x140" alt="omestan anagelsic anagelsik" />
     
             <h2 className="fw-normal">PT. Mutifa</h2>
             <p>Browse PT. Mutiara Mukti Farma's products.</p>
-            <p><button className="btn btn-secondary" onClick={handleClickMutifa}>Products &raquo;</button></p>
+            <p><button className="btn btn-dark" onClick={handleClickMutifa}>Products &raquo;</button></p>
           </div>
         </div>
     )

@@ -2,21 +2,17 @@ import React from "react";
 import MuliaProducts from "./MuliaProducts";
 import Sidebar from "./Sidebar";
 import OffcanvasMulia from "./Offcanvas";
-import Pagination from "./Pagination";
+import PaginationComponent from "./PaginationComponent";
 
 function Partitioner(props) {
 
     const [currentPage, setCurrentPage] = React.useState(1);
-    const [prodPerPage, setProdPerPage] = React.useState(10);
+    const [prodPerPage, setProdPerPage] = React.useState(12);
 
     function handleBackClick() {
         props.setButtonState("");
         window.location.reload();
     }
-
-    //change page
-    //captures the pageNumber as argument from Pagination component, which is number in Pagination comp
-    const paginate = pageNumber => setCurrentPage(pageNumber);
 
     const indexOfLastProd = currentPage * prodPerPage;
     const indexOfFirstProd = indexOfLastProd - prodPerPage;
@@ -32,7 +28,7 @@ function Partitioner(props) {
       </div>
       <div className="col-lg-9 products">
         <MuliaProducts obatMulia={currentProd}/>
-        <Pagination prodPerPage={prodPerPage} totalProd={props.obatMulia.length} paginate={paginate} />
+        <PaginationComponent prodPerPage={prodPerPage} totalProd={props.obatMulia.length} setCurrentPage={setCurrentPage} />
       </div>
      </div>
     </div>
