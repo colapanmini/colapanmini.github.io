@@ -8,6 +8,7 @@ function Partitioner(props) {
 
     const [currentPage, setCurrentPage] = React.useState(1);
     const [prodPerPage, setProdPerPage] = React.useState(12);
+    const [productArray, setProductArray] = React.useState(props.obatMulia);
 
     function handleBackClick() {
         props.setButtonState("");
@@ -16,7 +17,12 @@ function Partitioner(props) {
 
     const indexOfLastProd = currentPage * prodPerPage;
     const indexOfFirstProd = indexOfLastProd - prodPerPage;
-    const currentProd = props.obatMulia.slice(indexOfFirstProd, indexOfLastProd);
+    const currentProd = productArray.slice(indexOfFirstProd, indexOfLastProd);
+
+    // console.log(props.obatMulia);
+    // console.log(productArray);
+    // console.log(currentProd);
+    // console.log(currentPage);
     
     return (
     <div className="container-fluid partitioner-container">
@@ -24,11 +30,11 @@ function Partitioner(props) {
         <OffcanvasMulia />
      <div className="row">
       <div className="col-lg-3 d-none d-lg-block sidebar">
-        <Sidebar />
+        <Sidebar obatMulia={props.obatMulia} setProductArray={setProductArray} setCurrentPage={setCurrentPage}/>
       </div>
       <div className="col-lg-9 products">
         <MuliaProducts obatMulia={currentProd}/>
-        <PaginationComponent prodPerPage={prodPerPage} totalProd={props.obatMulia.length} setCurrentPage={setCurrentPage} />
+        <PaginationComponent prodPerPage={prodPerPage} totalProd={productArray.length} setCurrentPage={setCurrentPage} />
       </div>
      </div>
     </div>
