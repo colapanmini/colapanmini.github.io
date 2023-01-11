@@ -1,4 +1,7 @@
 import React from "react";
+import mekadaFront from "../images/carousel-img/mekada-front-2.jpeg";
+import mekadaWh2 from "../images/carousel-img/mekada-wh-2-2.jpeg";
+import mekadaWh from "../images/carousel-img/mekada-warehouse-tint-2.jpeg";
 
 function Carousel() {
     return (
@@ -10,35 +13,35 @@ function Carousel() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <img className="bd-placeholder-img carousel-img-custom" src={mekadaFront} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
     
             <div className="container">
-              <div className="carousel-caption text-start">
+              <div className="carousel-caption text-start carousel-custom-text">
                 <h1>Example headline.</h1>
                 <p>Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                <p><a className="btn btn-lg btn-success" href="#">Sign up today</a></p>
               </div>
             </div>
           </div>
           <div className="carousel-item">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          <img className="bd-placeholder-img carousel-img-custom" src={mekadaWh} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
     
             <div className="container">
-              <div className="carousel-caption">
+              <div className="carousel-caption carousel-custom-text">
                 <h1>Another example headline.</h1>
                 <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a className="btn btn-lg btn-success" href="#">Learn more</a></p>
               </div>
             </div>
           </div>
           <div className="carousel-item">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          <img className="bd-placeholder-img carousel-img-custom" src={mekadaWh2} aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" />
     
             <div className="container">
-              <div className="carousel-caption text-end">
+              <div className="carousel-caption text-end carousel-custom-text">
                 <h1>One more for good measure.</h1>
                 <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <p><a className="btn btn-lg btn-success" href="#">Browse gallery</a></p>
               </div>
             </div>
           </div>

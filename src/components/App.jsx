@@ -6,6 +6,7 @@ import About from "./About";
 import Contact from "./Contact";
 import obatMulia from "../obatmulia.js";
 import Partitioner from "./Partitioner";
+import Footer from "./Footer";
 
 function App() {
   const [productButtonState, setButtonState] = React.useState("");
@@ -13,13 +14,14 @@ function App() {
     <div>
       <Header />
       {productButtonState === "mulia" ? <Partitioner obatMulia={obatMulia} setButtonState={setButtonState} /> : <Carousel />}
-      <div className="container marketing custom-container-featurette">
+      {productButtonState === "mulia" ? null : <div className="container marketing custom-container-featurette">
         <h1>Our Products</h1>
         <p>PT. Mekada Abadi distributes Over-The-Counter (OTC) drugs from PT. Mulia Farma Suci and PT. Mutiara Mukti Farma.</p>
       <Featurettes setButtonState={setButtonState}/>
-      </div>
-      <About />
-      <Contact />
+      </div>}
+      {productButtonState === "mulia" ? null : <About />}
+      {productButtonState === "mulia" ? null : <Contact />}
+      <Footer />
     </div>
   );
 }
