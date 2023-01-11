@@ -3,12 +3,17 @@ import MuliaProducts from "./MuliaProducts";
 import Sidebar from "./Sidebar";
 import OffcanvasMulia from "./Offcanvas";
 import PaginationComponent from "./PaginationComponent";
+import { useInView } from 'react-intersection-observer';
 
 function Partitioner(props) {
 
     const [currentPage, setCurrentPage] = React.useState(1);
     const [prodPerPage, setProdPerPage] = React.useState(12);
     const [productArray, setProductArray] = React.useState(props.obatMulia);
+    const [ ref1, inView1 ] = useInView({
+      /* Optional options */
+      threshold: 0,
+    });
 
     function handleBackClick() {
         props.setButtonState("");
@@ -25,7 +30,7 @@ function Partitioner(props) {
     // console.log(currentPage);
     
     return (
-    <div className="container-fluid partitioner-container">
+    <div ref={ref1} className={`container-fluid partitioner-container hidden-animation ${inView1 ? "show" : ""}`}>
         <button className="btn btn-dark" onClick={handleBackClick}>Back</button>
         <OffcanvasMulia />
      <div className="row">
