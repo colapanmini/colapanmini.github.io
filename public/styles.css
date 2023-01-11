@@ -203,7 +203,6 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: 'Montserrat', sans-serif;
 }
@@ -317,4 +316,17 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
+}
+
+/* Footer Code */
+.custom-footer {
+  background-color:#2e3438;
+  margin: 30px 0 0 0;
+  padding: 50px 30px;
+  color: #fff
+}
+
+.footer-address {
+  font-size: 12px;
+  width: 10%;
 }

@@ -6,10 +6,12 @@ function Featurettes(props) {
   
   function handleClickMulia() {
     props.setButtonState("mulia");
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
 
   function handleClickMutifa() {
     props.setButtonState("mutifa");
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
   
     return (
