@@ -30,16 +30,20 @@ function Partitioner(props) {
     // console.log(currentPage);
     
     return (
-    <div ref={ref1} className={`container-fluid partitioner-container hidden-animation ${inView1 ? "show" : ""}`}>
-        <button className="btn btn-dark" onClick={handleBackClick}>Back</button>
-        <OffcanvasMulia />
+    <div className="container-fluid partitioner-container">
+        <div ref={ref1} className={`hidden-animation ${inView1 ? "show" : ""}`}>
+        <button className="btn btn-dark back-button" onClick={handleBackClick}>Back</button>
+        <h1 className="product-heading">PT. Mulia Farma Suci's Products</h1>
+        <hr className="divider"/>
+        </div>
+        <OffcanvasMulia obatMulia={props.obatMulia} setProductArray={setProductArray} setCurrentPage={setCurrentPage} />
      <div className="row">
       <div className="col-lg-3 d-none d-lg-block sidebar">
         <Sidebar obatMulia={props.obatMulia} setProductArray={setProductArray} setCurrentPage={setCurrentPage}/>
       </div>
       <div className="col-lg-9 products">
-        <MuliaProducts obatMulia={currentProd}/>
-        <PaginationComponent prodPerPage={prodPerPage} totalProd={productArray.length} setCurrentPage={setCurrentPage} />
+        {productArray.length === 0 ? <h1 className="no-result text-center">No results found.</h1> : <MuliaProducts obatMulia={currentProd}/>}
+        {productArray.length === 0 ? null : <PaginationComponent prodPerPage={prodPerPage} totalProd={productArray.length} setCurrentPage={setCurrentPage} />}
       </div>
      </div>
     </div>

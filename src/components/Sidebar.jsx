@@ -1,8 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { useInView } from 'react-intersection-observer';
 
 function Sidebar(props) {
+
+  const [ ref4, inView4 ] = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
 
   // Button Filter
   function handleFilter(event) {
@@ -12,6 +18,7 @@ function Sidebar(props) {
     
     props.setCurrentPage(1);
     props.setProductArray(categoryFilterProd);
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
 
   // Search Bar Filter
@@ -25,11 +32,12 @@ function Sidebar(props) {
 
     props.setCurrentPage(1);
     props.setProductArray(searchFilterProd);
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     event.preventDefault();
   }
 
     return (
-        <div>
+        <div ref={ref4} className={`hidden-animation ${inView4 ? "show" : ""}`}>
          <div className="search-wrapper">
            <form className="form-inline" onSubmit={handleSubmit}>
             <input className="form-control mr-sm-2 search-bar" type="search" placeholder="Search" aria-label="Search" name="searchInput"/>
