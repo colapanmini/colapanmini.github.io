@@ -17,13 +17,14 @@ function PaginationComponent(props) {
 
     function handleChange(e, p) {
         props.setCurrentPage(p);
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }
     
 
     return (
         <ThemeProvider theme={theme}>
         <Stack direction="row" justifyContent="center" spacing={2}>
-        <Pagination count={pageNumbers} shape="rounded" color="primary" onChange={handleChange} />
+        <Pagination page={props.currentPage} count={pageNumbers} shape="rounded" color="primary" onChange={handleChange} />
         </Stack>
         </ThemeProvider>
     )

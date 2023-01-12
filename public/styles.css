@@ -150,6 +150,38 @@
   margin-bottom: 50px;
 }
 
+.info-wrapper {
+  text-align: left;
+}
+
+.medicine-img-modal {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 400px) and (max-width: 992px) {
+  .info-wrapper {
+    font-size: 12px;
+  }
+  
+  .medicine-img-modal {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .info-wrapper {
+    font-size: 10px;
+  }
+  
+  .medicine-img-modal {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 /* Partitioner Component */
 .partitioner-container {
   margin-top: 125px;
@@ -158,6 +190,11 @@
 .back-button {
   margin-bottom: 30px;
   display: inline-block;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 20%;
+  left: 10px;
+  z-index: 5;
 }
 
 .product-heading {

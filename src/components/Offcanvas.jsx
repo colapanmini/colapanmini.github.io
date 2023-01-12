@@ -22,6 +22,12 @@ function OffcanvasMulia(props) {
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }
 
+  function handleClearFilter() {
+    props.setCurrentPage(1);
+    props.setProductArray(props.obatMulia);
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }
+
   // Search Bar Filter
   function handleSubmit(event) {
     // console.log(event.target.elements.searchInput.value);
@@ -50,9 +56,11 @@ function OffcanvasMulia(props) {
         <Offcanvas.Body>
         <div className="search-wrapper">
            <form className="form-inline" onSubmit={handleSubmit}>
-            <input className="form-control mr-sm-2 search-bar" type="search" placeholder="Search" aria-label="Search" name="searchInput"/>
+            <input className="form-control mr-sm-2 search-bar" autoComplete="off" type="search" placeholder="Search" aria-label="Search" name="searchInput"/>
             <button className="btn btn-outline-dark form-control-feedback search-button" type="submit"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
            </form>
+           <br/>
+           <button className="btn btn-danger" disabled={props.buttonDisabled} onClick={handleClearFilter}>Clear Filter</button>
          </div>
         <div className="card">
         <ul className="list-group list-group-flush">

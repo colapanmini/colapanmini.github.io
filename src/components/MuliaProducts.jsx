@@ -7,7 +7,7 @@ function MuliaProducts(props) {
          <div className="row">
             {props.obatMulia.map((element, index) => {
                 return(
-                <Product key={element.id} id={index} img={element.source} name={element.name}/>
+                <Product key={element.id} id={index} img={element.source} name={element.name} composition={element.composition} categories={element.categories} packaging={element.packaging} type={element.type}/>
                 )
             })}
          </div>
