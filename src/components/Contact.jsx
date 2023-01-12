@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import errormark from "../images/ctc-form-img/close.png";
 import checkmark from "../images/ctc-form-img/correct.png";
 import { useInView } from 'react-intersection-observer';
+import sickHaxx from "../secret.js";
 
 function Contact() {
   const [sendStatus, setSendStatus] = useState(0);
@@ -20,10 +21,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_5xf97k7",
-        "template_1ui72zn",
+        sickHaxx.serviceID,
+        sickHaxx.templateID,
         form.current,
-        "Az8ZNY9A6E_0xMcS7"
+        sickHaxx.publicKey
       )
       .then(
         (response) => {
