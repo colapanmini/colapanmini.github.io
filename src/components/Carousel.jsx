@@ -5,7 +5,7 @@ import mekadaWh from "../images/carousel-img/mekada-warehouse-tint-2.jpeg";
 
 function Carousel() {
     return (
-        <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
+        <div id="myCarousel" className="carousel slide mt-5" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -17,9 +17,9 @@ function Carousel() {
     
             <div className="container">
               <div className="carousel-caption text-start carousel-custom-text">
-                <h1>Example headline.</h1>
-                <p>Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a className="btn btn-lg btn-success" href="#">Sign up today</a></p>
+                <h1><strong>PT. Mekada Abadi</strong></h1>
+                <p>Establishing the distribution of affordable medications to all members of the community since 1950.</p>
+                <p><a className="btn btn-lg btn-success" href="#about">About Us</a></p>
               </div>
             </div>
           </div>
@@ -28,9 +28,8 @@ function Carousel() {
     
             <div className="container">
               <div className="carousel-caption carousel-custom-text">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a className="btn btn-lg btn-success" href="#">Learn more</a></p>
+                <h1>We Offer a Wide Range of Products</h1>
+                <p><a className="btn btn-lg btn-success" href="#featurettes">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -39,9 +38,8 @@ function Carousel() {
     
             <div className="container">
               <div className="carousel-caption text-end carousel-custom-text">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a className="btn btn-lg btn-success" href="#">Browse gallery</a></p>
+                <h1>Check out our Time-Limited-Offers!</h1>
+                <p><a className="btn btn-lg btn-success disabled" href="#">Coming Soon</a></p>
               </div>
             </div>
           </div>

@@ -19,10 +19,14 @@ function App() {
     <div>
       <Header />
       {productButtonState === "mulia" ? <Partitioner obatMulia={obatMulia} setButtonState={setButtonState} /> : <Carousel />}
-      {productButtonState === "mulia" ? null : <div ref={ref} className={`container marketing custom-container-featurette hidden-animation ${inView ? "show" : ""}`}>
-        <h1>Our Products</h1>
+      {productButtonState === "mulia" ? null : <div id="featurettes" className="container marketing custom-container-featurette">
+        <div className="spacer"></div>
+        <div ref={ref} className={`hidden-animation ${inView ? "show" : ""}`}>
+        <h1 classsName="product-title">Our Products</h1>
         <p>PT. Mekada Abadi distributes Over-The-Counter (OTC) drugs from PT. Mulia Farma Suci and PT. Mutiara Mukti Farma.</p>
+        <br/>
       <Featurettes setButtonState={setButtonState}/>
+        </div>
       </div>}
       {productButtonState === "mulia" ? null : <About />}
       {productButtonState === "mulia" ? null : <Contact/>}

@@ -40,21 +40,22 @@ function Contact() {
 
   return (
     <Container fluid id="contact" ref={ref3} className={`contact-me-container hidden-animation ${inView3 ? "show" : ""}`}>
+      <div className="spacer"></div>
       {sendStatus === 200 ? (
         <div className="statbox">
-          <h1 className="contact-me-title">Contact Us</h1>
+          <h1 className="contact-me-title"><strong>Contact Us</strong></h1>
           <img className="status-img" src={checkmark} alt="checkmark" />
           <h1>SUCCESS!!</h1>
         </div>
       ) : sendStatus === 400 ? (
         <div className="statbox">
-          <h1 className="contact-me-title">Contact Us</h1>
+          <h1 className="contact-me-title"><strong>Contact Us</strong></h1>
           <img className="status-img" src={errormark} alt="cross" />
           <h1>Oops! Please try again!</h1>
         </div>
       ) : (
         <div>
-          <h1 className="contact-me-title">Contact Us</h1>
+          <h1 className="contact-me-title"><strong>Contact Us</strong></h1>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="mb-3">
               <Form.Label>Name</Form.Label>
