@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.2f7b43d3.js",
+    "static/js/787.95e70bc6.chunk.js": "/static/js/787.95e70bc6.chunk.js",
+    "static/media/mekada-front-2.jpeg": "/static/media/mekada-front-2.2577a1d424c6ac2f141d.jpeg",
+    "static/media/mekada-warehouse-tint-2.jpeg": "/static/media/mekada-warehouse-tint-2.99cdecbc88fb5d365770.jpeg",
+    "static/media/mekada-wh-2-2.jpeg": "/static/media/mekada-wh-2-2.7f2832b54abed30e7fef.jpeg",
+    "static/media/viboost.jpg": "/static/media/viboost.b89bb71c614d59de0df7.jpg",
+    "static/media/logo-mekada-3.png": "/static/media/logo-mekada-3.7c1fd4427d86b737e9e5.png",
+    "static/media/omestan.jpg": "/static/media/omestan.69b1283eddf9f26c72ed.jpg",
+    "static/media/correct.png": "/static/media/correct.a8d20cd48e2e0d022083.png",
+    "static/media/magnifying-glass.png": "/static/media/magnifying-glass.ca33ca47f283280f66c2.png",
+    "static/media/close.png": "/static/media/close.2fce6214b7c60c745aa6.png",
+    "index.html": "/index.html",
+    "main.2f7b43d3.js.map": "/static/js/main.2f7b43d3.js.map",
+    "787.95e70bc6.chunk.js.map": "/static/js/787.95e70bc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2f7b43d3.js"
+  ]
+}
