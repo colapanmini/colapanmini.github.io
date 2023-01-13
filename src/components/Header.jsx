@@ -1,7 +1,12 @@
 import React from "react";
 import logomekada from "../images/navbar-img/logo-mekada-3.png";
 
-function Header() {
+function Header(props) {
+
+  function handleNavClick() {
+    props.setButtonState("");
+  }
+  
     return (
        <header>
           <nav className="navbar navbar-expand-md navbar-dark fixed-top navbar-customization">
@@ -13,13 +18,13 @@ function Header() {
               <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav ms-auto mb-2 mb-md-0">
                   <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#featurettes">Products</a>
+                    <a className="nav-link" aria-current="page" onClick={handleNavClick} href="#featurettes">Products</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#about">About</a>
+                    <a className="nav-link" onClick={handleNavClick} href="#about">About</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#contact">Contact</a>
+                    <a className="nav-link" onClick={handleNavClick} href="#contact">Contact</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link disabled">Offers</a>

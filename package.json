@@ -1,6 +1,7 @@
 {
   "name": "food-catalog-app",
   "version": "0.1.0",
+  "homepage": "https://colapanmini.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

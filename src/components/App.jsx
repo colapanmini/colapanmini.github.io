@@ -18,7 +18,7 @@ function App() {
   });
   return (
     <div>
-      <Header />
+      <Header setButtonState={setButtonState} />
       {productButtonState === "mulia" ? <Partitioner obatMulia={obatMulia} setButtonState={setButtonState} /> : <Carousel />}
       {productButtonState === "mulia" ? null : <div id="featurettes" className="container marketing custom-container-featurette">
         <div className="spacer"></div>
