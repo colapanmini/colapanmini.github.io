@@ -45,7 +45,7 @@ function Product(props) {
              <img className="magnifying-glass" data-bs-toggle="modal" data-bs-target={`#${modalId}`} src={magnifyingGlassIcon} alt="magnifying glass" />
              {/* Magni Glass Toggle Modal */}
              <div className="modal fade" id={modalId} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-             <div className="modal-dialog modal-dialog-centered modal-lg">
+             <div className="modal-dialog modal-dialog-centered modal">
                  <div className="modal-content">
                  <img src={props.img} alt="Full Sized Image" />
                  </div>
