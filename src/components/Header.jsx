@@ -6,12 +6,12 @@ function Header(props) {
   function handleNavClick() {
     props.setButtonState("");
   }
-  
+
     return (
        <header>
           <nav className="navbar navbar-expand-md navbar-dark fixed-top navbar-customization">
             <div className="container-fluid">
-              <a className="navbar-brand navbar-brand-customization" href="#"><span><img className="mekada-logo" src={logomekada} alt="Logo PT Mekada Abadi" /></span>Mekada Abadi</a>
+              <a className="navbar-brand navbar-brand-customization" onClick={handleNavClick} href="#"><span><img className="mekada-logo" src={logomekada} alt="Logo PT Mekada Abadi" /></span>Mekada Abadi</a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>

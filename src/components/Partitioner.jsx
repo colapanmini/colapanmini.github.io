@@ -41,7 +41,7 @@ function Partitioner(props) {
     
     return (
       <div className="container-fluid partitioner-container">
-        <button className="btn btn-dark back-button" onClick={handleBackClick}><FontAwesomeIcon icon={faLeftLong} /></button>
+        <a className="btn btn-dark back-button" href="#" onClick={handleBackClick}><FontAwesomeIcon icon={faLeftLong} /></a>
     <div>
         <div ref={ref1} className={`hidden-animation ${inView1 ? "show" : ""}`}>
         <h1 className="product-heading">PT. Mulia Farma Suci's Products</h1>
