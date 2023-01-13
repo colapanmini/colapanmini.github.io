@@ -176,6 +176,11 @@
   height: 200px;
 }
 
+.full-img-modal {
+  height: auto;
+  max-width: 100%;
+}
+
 @media (min-width: 400px) and (max-width: 992px) {
   .info-wrapper {
     font-size: 12px;
