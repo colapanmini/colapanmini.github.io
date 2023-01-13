@@ -5,7 +5,7 @@ import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
 function Footer() {
     return (
         <footer className="container-fluid text-center custom-footer">
-        <p><a href="#"><FontAwesomeIcon icon={faAngleUp} /></a></p>
+        <h2><a className="footer-btn btn btn-dark btn-lg" href="#"><FontAwesomeIcon icon={faAngleUp} /></a></h2>
         <div className="container-fluid">
         <div className="row">
         <div className="col-md-6 col-sm-12 align-self-center">

@@ -8,6 +8,7 @@ import obatMulia from "../obatmulia.js";
 import Partitioner from "./Partitioner";
 import Footer from "./Footer";
 import { useInView } from 'react-intersection-observer';
+// import obatMutifa from "../obatmutifa.js";
 
 function App() {
   const [productButtonState, setButtonState] = React.useState("");

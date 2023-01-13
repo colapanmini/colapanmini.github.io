@@ -414,6 +414,11 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   width: 10%;
 }
 
+.footer-btn {
+  border: none;
+  background: none;
+}
+
 
 /* Animation Code */
 .hidden-animation {
